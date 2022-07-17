@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2D4C66286C5D1700100368 /* ViewMenuExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2D4C65286C5D1700100368 /* ViewMenuExtension.swift */; };
+		0A2D4C68286C655400100368 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2D4C67286C655400100368 /* Constants.swift */; };
+		0A2D4C6B286C661B00100368 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2D4C6A286C661B00100368 /* UtilityFunctions.swift */; };
+		0A33AF2A286DDBB700033D64 /* AddLineNodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33AF29286DDBB700033D64 /* AddLineNodeExtension.swift */; };
+		0A51671A2865E5E300909FC2 /* OpenMenuExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5167192865E5E300909FC2 /* OpenMenuExtension.swift */; };
+		0A51671F2865ECF100909FC2 /* UIColor+NamedColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A51671E2865ECF100909FC2 /* UIColor+NamedColor.swift */; };
+		0A68BE6B2864A4C1007BDE8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A68BE6A2864A4C1007BDE8F /* AppDelegate.swift */; };
+		0A68BE6D2864A4C1007BDE8F /* ThreeDPortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A68BE6C2864A4C1007BDE8F /* ThreeDPortalViewController.swift */; };
+		0A68BE6F2864A4C2007BDE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A68BE6E2864A4C2007BDE8F /* Assets.xcassets */; };
+		0A68BE722864A4C2007BDE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A68BE702864A4C2007BDE8F /* Main.storyboard */; };
+		0AF562D5286EF2CB006E5DC3 /* LineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF562D4286EF2CB006E5DC3 /* LineModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A2D4C65286C5D1700100368 /* ViewMenuExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMenuExtension.swift; sourceTree = "<group>"; };
+		0A2D4C67286C655400100368 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ThreeDPortalFilemaker/Resources/Constants.swift; sourceTree = SOURCE_ROOT; };
+		0A2D4C6A286C661B00100368 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
+		0A33AF29286DDBB700033D64 /* AddLineNodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLineNodeExtension.swift; sourceTree = "<group>"; };
+		0A5167192865E5E300909FC2 /* OpenMenuExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMenuExtension.swift; sourceTree = "<group>"; };
+		0A51671E2865ECF100909FC2 /* UIColor+NamedColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+NamedColor.swift"; sourceTree = "<group>"; };
+		0A68BE672864A4C1007BDE8F /* ThreeDPortalFilemaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeDPortalFilemaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A68BE6A2864A4C1007BDE8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A68BE6C2864A4C1007BDE8F /* ThreeDPortalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDPortalViewController.swift; sourceTree = "<group>"; };
+		0A68BE6E2864A4C2007BDE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A68BE712864A4C2007BDE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A68BE732864A4C2007BDE8F /* ThreeDPortalFilemaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThreeDPortalFilemaker.entitlements; sourceTree = "<group>"; };
+		0AF562D4286EF2CB006E5DC3 /* LineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A68BE642864A4C1007BDE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2D4C69286C65AE00100368 /* UtilityFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				0A2D4C6A286C661B00100368 /* UtilityFunctions.swift */,
+			);
+			path = UtilityFunctions;
+			sourceTree = "<group>";
+		};
+		0A5167172865E39400909FC2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A68BE6C2864A4C1007BDE8F /* ThreeDPortalViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0A5167182865E5C000909FC2 /* AppDelegateExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A5167192865E5E300909FC2 /* OpenMenuExtension.swift */,
+				0A2D4C65286C5D1700100368 /* ViewMenuExtension.swift */,
+			);
+			path = AppDelegateExtensions;
+			sourceTree = "<group>";
+		};
+		0A51671B2865ECAC00909FC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A51671C2865ECD100909FC2 /* CoreUI */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A51671C2865ECD100909FC2 /* CoreUI */ = {
+			isa = PBXGroup;
+			children = (
+				0A51671D2865ECE300909FC2 /* Extensions */,
+				0A2D4C69286C65AE00100368 /* UtilityFunctions */,
+				0A2D4C67286C655400100368 /* Constants.swift */,
+			);
+			path = CoreUI;
+			sourceTree = "<group>";
+		};
+		0A51671D2865ECE300909FC2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A51671E2865ECF100909FC2 /* UIColor+NamedColor.swift */,
+				0A33AF29286DDBB700033D64 /* AddLineNodeExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0A68BE5E2864A4C1007BDE8F = {
+			isa = PBXGroup;
+			children = (
+				0A68BE692864A4C1007BDE8F /* ThreeDPortalFilemaker */,
+				0A68BE682864A4C1007BDE8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A68BE682864A4C1007BDE8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A68BE672864A4C1007BDE8F /* ThreeDPortalFilemaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A68BE692864A4C1007BDE8F /* ThreeDPortalFilemaker */ = {
+			isa = PBXGroup;
+			children = (
+				0A68BE6A2864A4C1007BDE8F /* AppDelegate.swift */,
+				0A5167182865E5C000909FC2 /* AppDelegateExtensions */,
+				0A51671B2865ECAC00909FC2 /* Resources */,
+				0AF562D1286EF24E006E5DC3 /* 3DPortalModule */,
+				0A68BE6E2864A4C2007BDE8F /* Assets.xcassets */,
+				0A68BE702864A4C2007BDE8F /* Main.storyboard */,
+				0A68BE732864A4C2007BDE8F /* ThreeDPortalFilemaker.entitlements */,
+			);
+			path = ThreeDPortalFilemaker;
+			sourceTree = "<group>";
+		};
+		0AF562D1286EF24E006E5DC3 /* 3DPortalModule */ = {
+			isa = PBXGroup;
+			children = (
+				0AF562D2286EF276006E5DC3 /* Model */,
+				0A5167172865E39400909FC2 /* ViewController */,
+			);
+			path = 3DPortalModule;
+			sourceTree = "<group>";
+		};
+		0AF562D2286EF276006E5DC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AF562D4286EF2CB006E5DC3 /* LineModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A68BE662864A4C1007BDE8F /* ThreeDPortalFilemaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A68BE762864A4C2007BDE8F /* Build configuration list for PBXNativeTarget "ThreeDPortalFilemaker" */;
+			buildPhases = (
+				0A68BE632864A4C1007BDE8F /* Sources */,
+				0A68BE642864A4C1007BDE8F /* Frameworks */,
+				0A68BE652864A4C1007BDE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeDPortalFilemaker;
+			productName = ThreeDPortalFilemaker;
+			productReference = 0A68BE672864A4C1007BDE8F /* ThreeDPortalFilemaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A68BE5F2864A4C1007BDE8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0A68BE662864A4C1007BDE8F = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 0A68BE622864A4C1007BDE8F /* Build configuration list for PBXProject "ThreeDPortalFilemaker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A68BE5E2864A4C1007BDE8F;
+			productRefGroup = 0A68BE682864A4C1007BDE8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A68BE662864A4C1007BDE8F /* ThreeDPortalFilemaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A68BE652864A4C1007BDE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A68BE6F2864A4C2007BDE8F /* Assets.xcassets in Resources */,
+				0A68BE722864A4C2007BDE8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A68BE632864A4C1007BDE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A68BE6D2864A4C1007BDE8F /* ThreeDPortalViewController.swift in Sources */,
+				0A33AF2A286DDBB700033D64 /* AddLineNodeExtension.swift in Sources */,
+				0AF562D5286EF2CB006E5DC3 /* LineModel.swift in Sources */,
+				0A68BE6B2864A4C1007BDE8F /* AppDelegate.swift in Sources */,
+				0A51671A2865E5E300909FC2 /* OpenMenuExtension.swift in Sources */,
+				0A2D4C66286C5D1700100368 /* ViewMenuExtension.swift in Sources */,
+				0A51671F2865ECF100909FC2 /* UIColor+NamedColor.swift in Sources */,
+				0A2D4C6B286C661B00100368 /* UtilityFunctions.swift in Sources */,
+				0A2D4C68286C655400100368 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A68BE702864A4C2007BDE8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A68BE712864A4C2007BDE8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A68BE742864A4C2007BDE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A68BE752864A4C2007BDE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0A68BE772864A4C2007BDE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ThreeDPortalFilemaker/ThreeDPortalFilemaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3EGXVN72T4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iphs.ThreeDPortalFilemaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0A68BE782864A4C2007BDE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ThreeDPortalFilemaker/ThreeDPortalFilemaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3EGXVN72T4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iphs.ThreeDPortalFilemaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A68BE622864A4C1007BDE8F /* Build configuration list for PBXProject "ThreeDPortalFilemaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A68BE742864A4C2007BDE8F /* Debug */,
+				0A68BE752864A4C2007BDE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A68BE762864A4C2007BDE8F /* Build configuration list for PBXNativeTarget "ThreeDPortalFilemaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A68BE772864A4C2007BDE8F /* Debug */,
+				0A68BE782864A4C2007BDE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A68BE5F2864A4C1007BDE8F /* Project object */;
+}
